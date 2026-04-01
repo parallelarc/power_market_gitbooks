@@ -1,4 +1,4 @@
-root: 电力市场化交易必读/
+root: ./
 
 structure:
   readme: README.md

@@ -135,30 +135,3 @@
 
 答：依据国家发改委、能源局《关于推进电力交易机构独立规范运行的实施意见》（发体改〔2020〕234号）的要求，自2020年起，交易机构新进普通工作人员一律实行市场化招聘。市场化招聘应纳入控股公司统一计划管理并实施，主要包括招聘计划、招聘实施及入职培养流程。人员选聘应统筹考虑中心发展规划、业务需要、劳动定员、上岗条件、人员结构、自然减员等因素，开展人力资源总量、专业、素质需求预测，科学编制年度招聘计划，经交易中心总经理办公会审议通过后上报。招聘计划最终按上级批复文件执行。交易中心根据上级批复的招聘计划统一编制招聘公告，报上级审核后，通过招聘平台发布。根据招聘计划、招聘平台志愿投递情况进行资格审查和简历筛选，择优先后开展笔试、面试及综合考察。交易中心根据上级有关要求和应聘考试、考察结果，研究拟录用人选，报上级审核。交易中心统一对核准人选进行公示，组织开展体检。全部合格者与交易中心直接签订劳动合同。
 
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/55a76bb9e1e8acb91f421370f5ae527c3a76b9a347d951d9aaac9234d5fbfeaa.jpg)
-
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/d946487433bd13b9af9dee871b605b4abed995b128b699c2e5523cefc5b37c88.jpg)
-
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/971daa49706f2f7fcd98b3f3823b36b9cd226bb4889190364c9911b3d0aeb57a.jpg)
-
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/7543d719a3f8ab6419f0f5657f48bd6d7ce1277a4fefa92a7e16a0a88a6944eb.jpg)
-
-
-# 电力交易工作问答
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/35e8b1de7c90f9395cc153d9a178b37f9c606314559bcc6945acc79eed4a3b09.jpg)
-
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/2f8f906596d0930a7edd196c038baa9b459add94b639002ac3621a9de8a3ee40.jpg)
-
-
-![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-03/79786456-6926-491d-8e4e-4b75f0cfbf47/037c3bb7436661707f318fd082e5b09cb08b1ec6f88d4be20d851d9e58b4052d.jpg)
-
-
-
-定价：42.00元上架建议：供用电
-
-

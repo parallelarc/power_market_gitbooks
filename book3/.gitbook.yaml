@@ -1,0 +1,7 @@
+root: ./
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+title: 电力交易工作问答
+author: 陈向群 罗朝春 等 编著
+language: zh-hans

@@ -9,6 +9,42 @@
 import re
 from pathlib import Path
 
+
+def is_escaped(text, index):
+    """字符前有奇数个连续反斜杠时，该字符被转义。"""
+    backslashes = 0
+    index -= 1
+    while index >= 0 and text[index] == '\\':
+        backslashes += 1
+        index -= 1
+    return backslashes % 2 == 1
+
+
+def remove_text_blocks(text):
+    """移除完整的 LaTeX text 块，支持嵌套括号和转义括号。"""
+    parts = []
+    cursor = 0
+    for match in re.finditer(r'\\text\s*\{', text):
+        if match.start() < cursor or is_escaped(text, match.start()):
+            continue
+        depth = 1
+        end = match.end()
+        while end < len(text) and depth:
+            if not is_escaped(text, end):
+                if text[end] == '{':
+                    depth += 1
+                elif text[end] == '}':
+                    depth -= 1
+            end += 1
+        if depth:
+            # 不完整的块保留原文，避免把无法确认的内容当作纯公式。
+            break
+        parts.append(text[cursor:match.start()])
+        cursor = end
+    parts.append(text[cursor:])
+    return ''.join(parts)
+
+
 def fix_math_formulas(content):
     """修复数学公式"""
     lines = content.split('\n')
@@ -43,9 +79,12 @@ def fix_math_formulas(content):
             # $...$ 内联公式，不应被包裹在 $$ 块公式中。
             # 检测方式：检查是否有内联数学标记（单个$），或者
             # 在 \text{} 块之外是否有CJK字符（中文散文）。
-            has_inline_math = re.search(r'(?<!\$)\$(?!\$)', stripped)
+            has_inline_math = any(
+                not is_escaped(stripped, match.start())
+                for match in re.finditer(r'(?<!\$)\$(?!\$)', stripped)
+            )
             # 去掉 \text{...} 块后，检查剩余部分是否含有CJK字符
-            text_removed = re.sub(r'\\text\s*\{[^}]*\}', '', stripped)
+            text_removed = remove_text_blocks(stripped)
             has_cjk_outside_text = re.search(r'[\u4e00-\u9fff]', text_removed)
 
             if has_cjk_outside_text or has_inline_math:
